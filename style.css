@@ -1,0 +1,91 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+   }
+   .container {
+    background-color: white;
+    width: 300px;
+    margin: auto;
+    border-radius: 15px 15px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   } 
+   img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+
+   }
+   h1 {
+    font-size: 20px;
+    
+    font-weight: 900;
+    text-align: center;
+    margin: 30px 10px 0 10px;
+    padding: 10px;
+   }
+   p {
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+    text-align: center;
+    padding: 0 30px;
+    line-height: 1.5;
+   }
+   .container-subscription {
+    display: flex;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    width: 80%;
+    }
+   .subscription-icon {
+    margin-right: 10px;
+   }
+   .subscription-copy {
+    flex:2;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+   }
+   .subscription-link {
+        color: hsl(245, 75%, 52%);
+        text-decoration: underline;
+        margin:  15px;
+        font-size: 14px;
+   }
+   .button-1 {
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    display: block;
+    margin: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 80%;
+    margin-top: 0px
+   }
+   .button-2 {
+    background-color: transparent;
+    border: none;
+    color: gray;
+    margin: 20px;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 0px;
+   }
